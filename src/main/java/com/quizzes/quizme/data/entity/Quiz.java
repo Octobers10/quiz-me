@@ -10,6 +10,8 @@ public class Quiz {
     @Column(name="QUIZ_ID")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long quizId;
+    @Column(name="QUIZ_CATEGORY")
+    private String category;
     @Column(name="QUIZ_QUESTION")
     private String question;
     @Column(name="QUIZ_ANSWER1")
@@ -27,6 +29,14 @@ public class Quiz {
 
     public void setQuizId(long quizId) {
         this.quizId = quizId;
+    }
+
+    public String getQuizCategory() {
+        return category;
+    }
+
+    public void setQuizCategory(String category) {
+        this.category = category;
     }
 
     public String getQuestion() {

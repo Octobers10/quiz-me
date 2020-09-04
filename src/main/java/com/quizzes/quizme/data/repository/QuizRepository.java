@@ -5,5 +5,5 @@ import com.quizzes.quizme.data.entity.Quiz;
 
 @Repository
 public interface QuizRepository extends CrudRepository<Quiz, Long>{
-    
+    Iterable<Quiz> findQuizByCategory(String category);
 }
