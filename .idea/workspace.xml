@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="362ad41b-7c5a-40b0-ad8f-28162603a887" name="Default Changelist" comment="" />
+    <list default="true" id="362ad41b-7c5a-40b0-ad8f-28162603a887" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quizzes/quizme/operation/QuizGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quizzes/quizme/operation/QuizGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quizzes/quizme/operation/QuizGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quizzes/quizme/operation/QuizGroup.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
